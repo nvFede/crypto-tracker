@@ -4,11 +4,16 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #343434;
+    color: white
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+p {
+  margin-bottom: 0;
 }
 
 * {
@@ -23,4 +28,10 @@ a {
     color: white;
     background: black;
   }
+}
+
+.anima:hover {
+  transform: scale(1.02);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
 }
